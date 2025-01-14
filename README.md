@@ -1,8 +1,7 @@
-# React + Vite
+# Blackjack game in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+- Realistic drawing odds, with 1 deck being shuffled every round. Number of decks can be adjusted by changing the argument of generateShoe() in Shoe.jsx
+- Player can hit, stand, double and split just like in real Blackjack
+- With the split move, the player could possibly end up with multiple hands.
+- Payouts depend on the player's bet, and changes depending on their splits and doubles
